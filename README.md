@@ -7,11 +7,7 @@ The Client object reads arithmetic operation from the user and passes it to the 
 The interactions between the Client and the “Calculator” Server are synchronous.
 
 Interaction Example:
-
 Client: + 2 4
-
 Server: 6
-
 Client: - 6 4
-
 Server: 2
