@@ -1,6 +1,6 @@
 # Client-Server-Calculator
 
-Implemented Server and Client Java objects as a part of Client Seerver programming course work. 
+Implemented Server and Client Java objects as a part of Client Server Programming course work. 
 
 The Client object reads input arithmetic operation from the user and passes it to the Server to perform it. The server replies back with the result of the operation.
 
