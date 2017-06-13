@@ -1,17 +1,13 @@
 # Client-Server-Calculator
 
-Built simple “Calculator” server (S) and Client agent (C) Java objects.
+Implemented Server and Client Java objects as a part of Client Seerver programming course work. 
 
-The client agent object reads input command/arithmetic operation from the user (U), invokes the calculate() method on the server IDL interface, gets the result back and pass it back to the User (U).
+The Client object reads input arithmetic operation from the user and passes it to the Server to perform it. The server replies back with the result of the operation.
 
-The interactions between the User, Client Agent, and the “Calculator” Server are synchronous, i.e., the user has to wait to receive the response to the calculation operation request before sending another request.
+The interactions between the Client and the “Calculator” Server are synchronous.
 
 Interaction Example:
-
 Client: + 2 4
-
 Server: 6
-
 Client: - 6 4
-
 Server: 2
